@@ -1,0 +1,265 @@
+.ApplicantForm {
+  width: 497px;
+  height: 687px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.45);
+  margin-right: 52px;
+  border-radius: 6px 6px 26px 26px;
+
+  &-content {
+    border: #000;
+  }
+
+  &-top-line {
+    width: 497px;
+    height: 54px;
+    border-radius: 6px 6px 0 0;
+    background-color: #ffe369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Prompt;
+    font-size: 20px;
+    color: #565656;
+  }
+
+  &-caption {
+    margin-top: 18px;
+    margin-left: 31px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & img {
+      border-radius: 50%;
+    }
+
+    & p {
+      font-family: Lato;
+      font-size: 18px;
+      color: #575757;
+      flex-grow: 1;
+      margin-left: 46px;
+    }
+  }
+
+  &-main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-applicant-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-data-value-wrapper {
+    display: flex;
+    margin-left: 46px;
+
+    & div {
+      margin-bottom: 9px;
+    }
+  }
+
+  &-data-name {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    color: #575757;
+  }
+
+  &-data-value {
+    margin-left: 15px;
+    flex: 2;
+    font-family: Lato;
+    font-size: 15px;
+    color: #575757;
+  }
+
+  &-contact-header,
+  &-skills-header,
+  &-skills,
+  &-contact {
+  }
+
+  &-contact-header {
+    margin-top: 37px;
+  }
+
+  &-skills-header {
+    margin-top: 31px;
+  }
+
+  &-header-value {
+    font-family: Prompt;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9a9595;
+    text-transform: uppercase;
+  }
+
+  &-new_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px;
+    margin-top: 100px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &-button {
+    position: relative;
+    width: 140px;
+    height: 36px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+  }
+
+  &-new_buttons > &-delete_btn {
+    background-color: #e87575;
+  }
+
+  &-remove_icon {
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    font-size: 26px;
+  }
+
+  &-new_buttons > &-pending_btn {
+    background-color: #ffe369;
+    border: solid 2px #fbdc07;
+    color: #403f3f;
+  }
+
+  &-new_buttons > &-pending_btn > i {
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    left: -8px;
+  }
+
+  &-new_buttons > &-pending_btn > i > &-person_icon {
+    position: absolute;
+    font-size: 28px;
+  }
+
+  &-new_buttons > &-pending_btn > i > &-clock_icon {
+    background-color: #fbdc07;
+    border-radius: 50%;
+    position: absolute;
+    right: -19px;
+    top: 11px;
+    font-size: 14px;
+  }
+
+  &-new_buttons > &-interview_btn {
+    background-color: #4bc171;
+  }
+
+  &-phone_icon {
+    position: absolute;
+    font-size: 22px;
+    top: 8px;
+    left: 10px;
+  }
+
+  &-submit_delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+    width: 498px;
+    height: 522px;
+    border-radius: 0 0 26px 26px;
+    background-color: #78736e;
+  }
+
+  &-submit_delete > div {
+    margin-top: 114px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  &-submit_delete > &-submit_btn {
+    width: 273px;
+    height: 40px;
+    background-color: #d86363;
+    box-shadow: 0 2px 5px 0 #913f3f;
+    margin-top: 71px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  &-submit_delete > &-cancel_btn {
+    width: 273px;
+    height: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 31px;
+    font-size: 18px;
+    color: #222020;
+    font-weight: normal;
+  }
+
+  &-pending_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px;
+    margin-top: 50px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &-pending_buttons > &-delete_btn {
+    width: 210px;
+    background-color: #d86363;
+  }
+
+  &-pending_buttons > &-interview_btn {
+    width: 210px;
+    background-color: #429d8a;
+  }
+
+  &-interview_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px;
+    margin-top: 100px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &-interview_buttons > &-delete_btn {
+    width: 212px;
+    background-color: #d4a14f;
+  }
+
+  &-interview_buttons > &-interview_btn {
+    width: 212px;
+    background-color: #1a92bd;
+  }
+
+  &-car {
+  }
+}

@@ -1,0 +1,25 @@
+export default {
+  BLACK: '#000',
+  WHITE: '#fff',
+  DEFAULT_TEXT: '#575757',
+  LIGHT_TEXT: '#929292',
+  CONTENT_BACKGROUND: '#e9e9e9',
+  SECTION_HEADING: '#9a9595',
+  TABLE_BORDER: '#c7c7c7',
+  LINE_SEPARATOR: '#f5f5f5',
+  BUTTON_DANGER: '#d86363',
+  BUTTON_DEFAULT: '#cccccc',
+  BUTTON_SUCCESS: '#429d8a',
+
+  GRAY_100: '#fafafa',
+  GRAY_200: '#fafafa',
+  GRAY_300: '#f4f4f4',
+  GRAY_400: '#ececec',
+  GRAY_500: '#dedede',
+  GRAY_550: '#dbdbdb',
+  GRAY_600: '#b8b8b8',
+  GRAY_700: '#888888',
+  GRAY_800: '#4d4d4d',
+  GRAY_900: '#3e3e3e',
+  BLUE: '#4eb2b4'
+}
